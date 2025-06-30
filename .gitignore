@@ -1,0 +1,53 @@
+# Entorno virtual de Python
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos de configuración de entorno
+.env
+*.env
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de migración antiguos (opcional)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Archivos del IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos compilados
+*.so
+
+# Archivos generados por tests
+htmlcov/
+coverage.*
+.cache
+nosetests.xml
+*.cover
+*.py,cover
+.tox/
+.pytest_cache/
+.jupyter/
+
+# Archivos de Docker (si estás usando volúmenes)
+*.pid
+*.pid.lock
